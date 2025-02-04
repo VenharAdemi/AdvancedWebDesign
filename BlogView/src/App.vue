@@ -1,10 +1,6 @@
-<template>
-  <BlogView />
-</template>
+<template><BlogView /></template>
 
-<script setup>
-import BlogView from "./components/BlogView.vue";
-</script>
+<script setup>import BlogView from "./components/BlogView.vue";</script>
 
 <style>
 #app {
@@ -16,7 +12,5 @@ import BlogView from "./components/BlogView.vue";
   margin: 60px auto 0;
   max-width: 800px;
 }
-input {
-  padding: 6px;
-}
+input {padding: 6px;}
 </style>
